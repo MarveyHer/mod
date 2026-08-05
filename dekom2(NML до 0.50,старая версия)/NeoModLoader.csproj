@@ -1,0 +1,126 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>NeoModLoader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="NeoModLoader.resources.assemblies.0Harmony.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Reflection.Metadata-renamed.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Text.Encoding.CodePages.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Threading.Tasks.Extensions.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Collections.Immutable.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Buffers.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Diagnostics.StackTrace.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Globalization.Extensions.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Numerics.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Runtime.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Reflection.Metadata.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Memory.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Numerics.Vectors.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Microsoft.CodeAnalysis.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Mono.Cecil.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.MonoMod.RuntimeDetour.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.MonoMod.Utils.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.YamlDotNet.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Facepunch.Steamworks.Posix.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Facepunch.Steamworks.Win64.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Gameloop.Vdf.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Assembly-CSharp-Publicized.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.NeoModLoader.AutoUpdate.dll" />
+    <None Remove="NeoModLoader.resources.assemblies.Mono.Cecil.Pdb.dll" />
+    <None Remove="NeoModLoader.resources.logo.png" />
+    <None Remove="NeoModLoader.resources.square_frame_only.png" />
+    <None Remove="NeoModLoader.resources.github.png" />
+    <None Remove="NeoModLoader.resources.reload.png" />
+    <None Remove="NeoModLoader.resources.window_empty_frame.png" />
+    <None Remove="NeoModLoader.resources.windowBigCloseSliced.png" />
+    <None Remove="NeoModLoader.resources.windowVertNamePlate.png" />
+    <None Remove="NeoModLoader.resources.locales.cz.json" />
+    <None Remove="NeoModLoader.resources.locales.en.json" />
+    <None Remove="NeoModLoader.resources.locales.ch.json" />
+    <None Remove="NeoModLoader.resources.commit" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.0Harmony.dll" LogicalName="NeoModLoader.resources.assemblies.0Harmony.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Reflection.Metadata-renamed.dll" LogicalName="NeoModLoader.resources.assemblies.System.Reflection.Metadata-renamed.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Text.Encoding.CodePages.dll" LogicalName="NeoModLoader.resources.assemblies.System.Text.Encoding.CodePages.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Threading.Tasks.Extensions.dll" LogicalName="NeoModLoader.resources.assemblies.System.Threading.Tasks.Extensions.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Collections.Immutable.dll" LogicalName="NeoModLoader.resources.assemblies.System.Collections.Immutable.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Buffers.dll" LogicalName="NeoModLoader.resources.assemblies.System.Buffers.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Diagnostics.StackTrace.dll" LogicalName="NeoModLoader.resources.assemblies.System.Diagnostics.StackTrace.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Globalization.Extensions.dll" LogicalName="NeoModLoader.resources.assemblies.System.Globalization.Extensions.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Numerics.dll" LogicalName="NeoModLoader.resources.assemblies.System.Numerics.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Runtime.dll" LogicalName="NeoModLoader.resources.assemblies.System.Runtime.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Reflection.Metadata.dll" LogicalName="NeoModLoader.resources.assemblies.System.Reflection.Metadata.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Memory.dll" LogicalName="NeoModLoader.resources.assemblies.System.Memory.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Numerics.Vectors.dll" LogicalName="NeoModLoader.resources.assemblies.System.Numerics.Vectors.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.System.Runtime.CompilerServices.Unsafe.dll" LogicalName="NeoModLoader.resources.assemblies.System.Runtime.CompilerServices.Unsafe.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Microsoft.CodeAnalysis.dll" LogicalName="NeoModLoader.resources.assemblies.Microsoft.CodeAnalysis.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Microsoft.CodeAnalysis.CSharp.dll" LogicalName="NeoModLoader.resources.assemblies.Microsoft.CodeAnalysis.CSharp.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Mono.Cecil.dll" LogicalName="NeoModLoader.resources.assemblies.Mono.Cecil.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.MonoMod.RuntimeDetour.dll" LogicalName="NeoModLoader.resources.assemblies.MonoMod.RuntimeDetour.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.MonoMod.Utils.dll" LogicalName="NeoModLoader.resources.assemblies.MonoMod.Utils.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.YamlDotNet.dll" LogicalName="NeoModLoader.resources.assemblies.YamlDotNet.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Facepunch.Steamworks.Posix.dll" LogicalName="NeoModLoader.resources.assemblies.Facepunch.Steamworks.Posix.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Facepunch.Steamworks.Win64.dll" LogicalName="NeoModLoader.resources.assemblies.Facepunch.Steamworks.Win64.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Gameloop.Vdf.dll" LogicalName="NeoModLoader.resources.assemblies.Gameloop.Vdf.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Assembly-CSharp-Publicized.dll" LogicalName="NeoModLoader.resources.assemblies.Assembly-CSharp-Publicized.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.NeoModLoader.AutoUpdate.dll" LogicalName="NeoModLoader.resources.assemblies.NeoModLoader.AutoUpdate.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.assemblies.Mono.Cecil.Pdb.dll" LogicalName="NeoModLoader.resources.assemblies.Mono.Cecil.Pdb.dll" />
+    <EmbeddedResource Include="NeoModLoader.resources.logo.png" LogicalName="NeoModLoader.resources.logo.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.square_frame_only.png" LogicalName="NeoModLoader.resources.square_frame_only.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.github.png" LogicalName="NeoModLoader.resources.github.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.reload.png" LogicalName="NeoModLoader.resources.reload.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.window_empty_frame.png" LogicalName="NeoModLoader.resources.window_empty_frame.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.windowBigCloseSliced.png" LogicalName="NeoModLoader.resources.windowBigCloseSliced.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.windowVertNamePlate.png" LogicalName="NeoModLoader.resources.windowVertNamePlate.png" />
+    <EmbeddedResource Include="NeoModLoader.resources.locales.cz.json" LogicalName="NeoModLoader.resources.locales.cz.json" />
+    <EmbeddedResource Include="NeoModLoader.resources.locales.en.json" LogicalName="NeoModLoader.resources.locales.en.json" />
+    <EmbeddedResource Include="NeoModLoader.resources.locales.ch.json" LogicalName="NeoModLoader.resources.locales.ch.json" />
+    <EmbeddedResource Include="NeoModLoader.resources.commit" LogicalName="NeoModLoader.resources.commit" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\SteamLibrary\steamapps\common\worldbox\worldbox_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="0Harmony" />
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Facepunch.Steamworks.Posix" />
+    <Reference Include="Gameloop.Vdf" />
+    <Reference Include="Mono.Cecil" />
+    <Reference Include="MonoMod.RuntimeDetour" />
+    <Reference Include="MonoMod.Utils" />
+    <Reference Include="FMODUnity" />
+    <Reference Include="YamlDotNet" />
+    <Reference Include="RSG" />
+    <Reference Include="Microsoft.CodeAnalysis" />
+    <Reference Include="Microsoft.CodeAnalysis.CSharp" />
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="Mono.Cecil.Pdb" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="DOTween" />
+  </ItemGroup>
+</Project>
